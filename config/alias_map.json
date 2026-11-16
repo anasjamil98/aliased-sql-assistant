@@ -1,0 +1,29 @@
+{
+  "tables": {
+    "customers": "t_01",
+    "merchants": "t_02",
+    "transactions": "t_03"
+  },
+  "columns": {
+    "customers.customer_id": "c_001",
+    "customers.signup_date": "c_002",
+    "customers.city": "c_003",
+    "customers.segment": "c_004",
+    "customers.is_test_account": "c_005",
+    "merchants.merchant_id": "c_006",
+    "merchants.merchant_name": "c_007",
+    "merchants.category": "c_008",
+    "merchants.is_biller": "c_009",
+    "transactions.txn_id": "c_010",
+    "transactions.txn_ts": "c_011",
+    "transactions.customer_id": "c_012",
+    "transactions.counterparty_customer_id": "c_013",
+    "transactions.merchant_id": "c_014",
+    "transactions.txn_type": "c_015",
+    "transactions.channel": "c_016",
+    "transactions.amount_minor": "c_017",
+    "transactions.fee_minor": "c_018",
+    "transactions.currency": "c_019",
+    "transactions.status": "c_020"
+  }
+}
